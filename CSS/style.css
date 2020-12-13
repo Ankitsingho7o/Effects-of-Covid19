@@ -1,0 +1,516 @@
+/* font-family: 'Nunito', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Utility Classes */
+.center {
+  text-align: center;
+}
+.h-primary {
+  color: rgb(5, 43, 54);
+  padding: 12px;
+  font-size: 3rem;
+  font-family: "Nunito", sans-serif;
+}
+.h-secondary {
+  padding: 12px;
+  font-size: 2.1rem;
+  font-family: "Nunito", sans-serif;
+}
+
+/* Navigation bar */
+#navbar {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 0px;
+}
+
+#navbar::before {
+  content: "";
+  position: absolute;
+  background-color: #4284aa;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+/* Logo and image */
+#logo {
+  margin: 10px 49px 10px 21px;
+  padding: 10px 8px;
+}
+
+#logo img {
+  height: 75px;
+}
+
+/* List Styling */
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  font-size: 1.4rem;
+}
+
+nav ul li a {
+  display: block;
+  padding: 3px 9px;
+  margin: 0px 7.4px;
+  color: rgb(5, 43, 54);
+  text-decoration: none;
+  font-family: "Nunito", sans-serif;
+}
+nav ul li a:hover {
+  color: rgb(7, 103, 133);
+  cursor: pointer;
+  /* background-color: rgb(255, 255, 255); */
+  /* border-radius: 30px; */
+  text-decoration: underline;
+}
+
+/* Home Section */
+#home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 200px;
+  height: 369px;
+}
+
+#home::before {
+  content: "";
+  position: absolute;
+  background: url("../Images/covid19.png") no-repeat center center/cover;
+  top: 0px;
+  left: 0px;
+  height: 489px;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.34;
+}
+
+#home h1 {
+  color: rgb(5, 43, 54);
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+}
+
+#home p {
+  font-size: 1.5rem;
+  color: rgb(5, 43, 54);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Precautions Section */
+
+#precautions {
+  margin: 34px;
+  display: flex;
+}
+#precautions .box {
+  border: 3px solid rgb(109, 193, 221);
+  border-radius: 12px;
+  padding: 15px;
+  margin: 8px;
+  line-height: 1.5;
+  background-color: #dfe6ec78;
+}
+
+#precautions .box img {
+  height: 150px;
+  border-radius: 30px;
+  display: block;
+  margin: auto;
+}
+#precautions .box p {
+  font-size: 1rem;
+  color: rgb(5, 43, 54);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+
+}
+
+/* Symptoms Section */
+#symptoms_container{
+  position: relative;
+}
+
+
+#symptoms_container::before{
+  content: "";
+  position: absolute;
+  background-color: #4284aa;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.2;
+}
+
+#symptoms {
+  margin: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#symptoms .box {
+  border: 3px solid rgb(109, 193, 221);
+  border-radius: 12px;
+  padding: 15px;
+  margin: 12px ;
+  margin-bottom: 42px;
+  line-height: 1.5;
+  background-color: #dfe6ec78;
+}
+
+#symptoms .box img {
+  height: 150px;
+  border-radius: 30px;
+  display: block;
+  margin: auto;
+}
+#symptoms .box p {
+  font-size: 1rem;
+  color: rgb(5, 43, 54);
+}
+#symptoms_container p{
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  
+}
+
+/* Live Link */
+
+.liveLink_container{
+  height:344px;
+}
+.LiveLink{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.LiveLink h2{
+  font-size: 1.7rem;
+  text-align: center;
+}
+.LiveLink img{
+  height: 134px;
+  align-items: center;
+}
+
+.livelinkitem{
+  padding: 34px;
+}
+
+/* Footer */
+#footer{
+  padding: 10px;
+  margin: 10px 0px;
+  margin-bottom: 0px;
+  position: relative;
+}
+#footer::before{
+  content: "";
+  position: absolute;
+  background-color: #4284aa;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.2;
+}
+#footer p{
+  font-family: 'Poppins', sans-serif; 
+}
+
+
+ /*********************************//* MENTAL HEALTH PAGE */ /**/ /**/ /***//*********************************/
+ #home_Mentalhealth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 200px;
+  height: 369px;
+}
+
+
+#home_Mentalhealth h1 {
+  color: rgb(5, 43, 54);
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+}
+
+#home_Mentalhealth p {
+  font-size: 1.5rem;
+  color: rgb(5, 43, 54);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+/* Graph */
+#Graph img{
+  padding: 10px;
+  margin: 20px;
+  height: 400px;
+  width: 621px;
+  border: 3px solid rgb(109, 193, 221);
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* We Can do */
+#Wecando {
+  margin: 34px;
+  display: flex;
+}
+#Wecando .box {
+  border: 3px solid rgb(109, 193, 221);
+  border-radius: 12px;
+  padding: 15px;
+  margin: 8px;
+  line-height: 1.5;
+  background-color: #dfe6ec78;
+}
+
+#Wecando .box p {
+  font-size: 1rem;
+  color: rgb(5, 43, 54);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+
+}
+
+/*********************************//* Economical Effect */ /**/ /**/ /***//*********************************/
+/* Nav bar section*/
+
+#navbar_economical{
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 0px;
+}
+
+#navbar_economical::before {
+  content: "";
+  position: absolute;
+  background-color: #4284aa;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.8;
+}
+/* Home Section */
+#home_economical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 200px;
+  height: 369px;
+}
+
+#home_economical::before {
+  content: "";
+  position: absolute;
+  background: url("../Images/Economical\ Effect.jpg") no-repeat center center/cover;
+  top: 0px;
+  left: 0px;
+  height: 489px;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.34;
+}
+
+#home_economical h1 {
+  color: rgb(5, 43, 54);
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+}
+
+#home_economical p {
+  font-size: 1.5rem;
+  color: rgb(5, 43, 54);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+/* Graphs */
+#Graphs {
+  margin: 14px;
+  /* align-items: center;
+  justify-content: center; */
+  display: flex;
+}
+#Graphs .box {
+  border: 3px solid rgb(109, 193, 221);
+  border-radius: 12px;
+  padding:  5px 0px;
+  margin: 12px 14px;
+  line-height: 1.8;
+  background-color: #dfe6ec78;
+
+}
+
+#Graphs .box img {
+  height: 400px;
+  width: 564px;
+  padding: 20px;
+  border-radius: 30px;
+  display: block;
+  margin: auto;
+}
+#Graphs .box p {
+  font-size: 1rem;
+  color: rgb(5, 43, 54);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+
+}
+
+
+/* **********************************Vaccine******************** */
+/* Home */
+
+#home_vaccine {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 200px;
+  height: 369px;
+}
+
+#home_vaccine::before {
+  content: "";
+  position: absolute;
+  background: url("../Images/vaccine.jpg") no-repeat center center/cover;
+  top: 0px;
+  left: 0px;
+  height: 489px;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.34;
+}
+
+#home_vaccine h1 {
+  color: rgb(5, 43, 54);
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+}
+
+#home_vaccine p {
+  font-size: 1.5rem;
+  color: rgb(5, 43, 54);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+/* Importance */
+#Importance {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 200px;
+  height: 369px;
+}
+#Importance h1 {
+  color: rgb(5, 43, 54);
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+}
+
+#Importance p {
+  font-size: 1.5rem;
+  color: rgb(5, 43, 54);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+/* Safety */
+#safety {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 200px;
+  height: 369px;
+}
+#safety h1 {
+  color: rgb(5, 43, 54);
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+}
+
+#safety p {
+  font-size: 1.5rem;
+  color: rgb(5, 43, 54);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ***************************About************ */
+/* Home */
+#home_about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 200px;
+  height: 369px;
+}
+
+
+#home_about h1 {
+  color: rgb(5, 43, 54);
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  margin-top: 124px;
+}
+#home_about p {
+  font-size: 1.5rem;
+  color: rgb(5, 43, 54);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+#home_about img {
+  width: 260px;
+  height: 250px;
+}
+
+#footer_about {
+  padding: 10px;
+  margin: 164px 0px;
+  margin-bottom: 0px;
+  position: relative;
+}
+#footer_about::before{
+  content: "";
+  position: absolute;
+  background-color: #4284aa;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.2;
+}
+#footer_about p{
+  font-family: 'Poppins', sans-serif; 
+}

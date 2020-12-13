@@ -1,0 +1,167 @@
+   /* Navigation Menu */
+   #navbar{
+       flex-direction: column;
+   }
+   #navbar ul li a{
+       font-size: 0.9rem;
+       padding:0px 1px;
+       padding-bottom: 8px;
+   }
+   /* home Section    */
+   #home{
+       height:500px;
+       padding: 2px 13px;
+   }
+   #home p{
+       font-size: 16px;
+   }
+   #home::before{
+       height: 650px;
+   }
+    /* Precautions section */
+  #precautions{
+   flex-direction: column;
+  
+  }
+
+  #precautions .box img {
+    height: 122px;
+    border-radius: 30px;
+    display: block;
+    margin: auto;
+}
+
+
+
+
+    /* symptoms Section */
+    #symptoms{
+        flex-direction: column;
+    }
+    #symptoms .box{
+        padding: 15px;
+        margin: 12px;
+        margin-bottom: 42px;
+    }
+    /* Live Link  */
+    .LiveLink {
+        flex-direction: column;
+    }
+
+    /* Utility Classes */
+    .h-primary{
+        font-size: 35px;
+    }
+
+/* ***********************************Mental Health************************* */
+/* home_Mentalhealth */
+#home_Mentalhealth{
+    height:600px;
+    padding: 2px 10px;
+}
+#home_Mentalhealth p{
+    font-size: 16px;
+}
+#home_Mentalhealth::before{
+    height: 650px;
+}
+
+/* Graph */
+#Graph img {
+    height: 219px;
+    width: 264px;
+}
+
+
+/* Wecan do */
+#Wecando{
+    flex-direction: column;
+    overflow: hidden;
+}
+#Wecando h2{
+   font-size: 1.3rem;
+}
+#Wecando .box p{
+   font-size: 0.6rem;
+}
+
+
+
+/* ****************************Economical Effect****************** */
+/* Navbar */
+#navbar_economical{
+    flex-direction: column;
+}
+#navbar_economical ul li a{
+    font-size: 0.9rem;
+    padding:0px 1px;
+    padding-bottom: 8px;
+}
+/* home */
+#home_economical{
+    height:524px;
+    padding: 2px 10px;
+}
+#home_economical p{
+    font-size: 16px;
+}
+#home_economical::before{
+    height: 650px;
+}
+
+/* Graphs  */
+#Graphs{
+    flex-direction: column;
+}
+#Graphs .box img {
+    height: 213px;
+    width: 220px;
+}
+
+#Graphs .box p {
+    font-size: 0.7rem;
+    
+}
+
+
+/* *********************Vaccine***************** */
+ /* home Section    */
+ #home_vaccine{
+    height:500px;
+    padding: 2px 13px;
+}
+#home_vaccine p{
+    font-size: 16px;
+}
+#home_vaccine::before{
+    height: 650px;
+}
+/* Importance */
+ #Importance{
+    height:500px;
+    padding: 2px 13px;
+}
+#Importance p{
+    font-size: 16px;
+}
+
+/* Safety */
+ #safety{
+    height:500px;
+    padding: 2px 13px;
+}
+#safety p{
+    font-size: 16px;
+}
+
+/* ****************About Us************ */
+#home_about{
+    height:500px;
+    padding: 2px 13px;
+}
+#home_about p{
+    font-size: 16px;
+}
+#home_about::before{
+    height: 650px;
+}
